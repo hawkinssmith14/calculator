@@ -1,0 +1,36 @@
+.calculator {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 8px;
+}
+
+.display {
+    border: 2px solid black;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.main {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.numbers {
+    width: 100px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
